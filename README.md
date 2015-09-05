@@ -22,6 +22,7 @@ python -m SimpleHTTPServer 8080
 Obviamente podes usar WAMP o cualquier herramienta alternativa para correr un servidor http.
 
 
-# Levantar un servidor de Python y comenzar a usar Polymer (Rodrigo Gonzalez (PTF Palermo) mail: ro_gonzalez@hotmail.com)
+# Levantar un servidor de Python y comenzar a usar Polymer 
+## (Rodrigo Gonzalez (PTF Palermo) mail: ro_gonzalez@hotmail.com)
 
 https://docs.google.com/document/d/1iLkV5MBS_FWDkl6kg8jqr9_Ss-KUwv7FYcATir1uGbE/edit
