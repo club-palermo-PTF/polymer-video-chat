@@ -72,7 +72,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect">
           <a data-route="home" href="/">
             <iron-icon icon="home"></iron-icon>
-            <span>Home</span>
+            <span>Video</span>
           </a>
 
           <a data-route="users" href="/users">
@@ -80,6 +80,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <span>Users</span>
           </a>
         </paper-menu>
+
       </paper-scroll-header-panel>
 
       <!-- Main Area -->
@@ -118,12 +119,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
               <paper-material elevation="1">
                   <div class="chat-holder">
-                  <paper-card heading="Matias" elevation="1">
-                    <div class="card-content">Muy buen videooo!</div>
-                    <div class="card-actions">
-                      <paper-button>Responder</paper-button>
-                    </div>
-                  </paper-card>
+
+                    <paper-card heading="Matias" elevation="1">
+                      <div class="card-content">Muy buen videooo!</div>
+                      <div class="card-actions">
+                        <a href="#reply"><paper-button>Responder</paper-button></a>
+                      </div>
+                    </paper-card>
+
                   </div>
               </paper-material>
             </section>
