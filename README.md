@@ -1,19 +1,22 @@
-Welcome to Polymer Starter Kit Light!
+# Polymer Video Chat
+## Programá tu futuro - Sede Palermo
 
-To begin, fire up a local server from inside the `app` directory. Please make sure to serve up the contents of the directory rather than root as routing will otherwise fail to correctly function.
+Bienvenidos al taller de Polymer de Programá tu futuro
 
-## Firing up a server using Python
+Para empezar, vas a tener que inicar un servidor local de tu carpeta `app`. Asegurate de correr en el servidor el contenido de la carpeta `app` porque sino no va a funcionar.
 
-If you are a Windows user, install Python and from inside the `app` directory run:
+## Como levantar un servidor local usando Python
+
+Si estás en Windows, instalá Python y desde adentro de la carpeta `app` corré el siguiente comando:
 
 ```
 python -m http.server 8080
 ```
 
-or on a Mac/*nix machine, run:
+o en una Mac/*nix, corré:
 
 ```
 python -m SimpleHTTPServer 8080
 ```
 
-You can of course also use WAMP or an alternative tool for serving up content. 
+Obviamente podes usar WAMP o cualquier herramienta alternativa para correr un servidor http.
